@@ -17,5 +17,9 @@ public class InterfaceAwake : MonoBehaviour {
     public void GoAwake ()    {
         SceneManager.LoadScene ("Awake");
     }
+
+    public void Quit ()    {
+        Application.Quit();
+    }
 }
 
